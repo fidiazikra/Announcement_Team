@@ -1,6 +1,6 @@
 .Judul{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Abril" ; font-size: 40px;font-weight: 700;
 }
 body{
     height: 100vh;
@@ -8,22 +8,31 @@ body{
     justify-content: center;
     align-items: center; 
     flex-direction: column;
-    background-color: bisque;
+    background-color: cornflowerblue;
 }
 button{
-    background-color: aquamarine;
+    background-color: black;
     padding: 12px;
+    color: aliceblue;
 }
 
 .contact{
     padding: 20px;
     margin: 20px;
-    background-color: blue;
+    display: flex;
+    gap: 18px;
 }
 a{
-    color: aliceblue;
+    color: black;
+    background-color: skyblue;
+    padding: 20px;
+    font-family: "Libre"; font-weight: 15px;
+    text-decoration: none;
 }
 input{
     padding: 12px;
     width: 512px;
+}
+.Isi{
+    font-family: "Libre" ;font-size: 25px;
 }
