@@ -20,6 +20,8 @@ button{
     padding: 20px;
     margin: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 18px;
 }
 a{
@@ -34,5 +36,31 @@ input{
     width: 512px;
 }
 .Isi{
-    font-family: "Libre" ;font-size: 25px;
+    font-family: "Libre" ;
+    font-size: 25px;
+}
+img{
+    max-width: 100%;
+    width: 512px;
+}
+
+@media (max-width: 512px) {
+    .Judul{
+        font-size: 24px;
+    }
+    button{
+        background-color: black;
+        padding: 12px;
+        color: aliceblue;
+    }
+    a{
+        padding: 8px;
+    }
+    input{
+        padding: 12px;
+        width: 215px;
+    }
+    .Isi{
+        font-size: 16px;
+    }   
 }
