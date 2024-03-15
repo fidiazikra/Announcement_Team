@@ -1,0 +1,29 @@
+.Judul{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: bisque;
+}
+button{
+    background-color: aquamarine;
+    padding: 12px;
+}
+
+.contact{
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+}
+a{
+    color: aliceblue;
+}
+input{
+    padding: 12px;
+    width: 512px;
+}
