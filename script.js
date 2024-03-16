@@ -7,6 +7,11 @@ function onButtonSend() {
     codeElement.value = "";
     return;
   }
+  if (checkSpasi(text)) {
+    alert("Kode tidak boleh mengandung spasi!");
+    codeElement.value = "";
+    return;
+  }
   console.log(text);
   window.location.href = `${text}.html`;
 }
@@ -18,3 +23,15 @@ codeElement.addEventListener("keydown", (event) => {
     }
   }
 });
+
+function checkSpasi(code) {
+  let codeSplits = code.split("");
+  let result = false;
+  codeSplits.map((codeSplit) => {
+    if (codeSplit === " ") {
+      console.log({ codeSplit });
+      result = true;
+    }
+  });
+  return result;
+}
